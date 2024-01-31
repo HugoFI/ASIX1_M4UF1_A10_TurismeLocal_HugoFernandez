@@ -36,9 +36,6 @@
                   <ul class="dropdown-menu dropdown-menu-dark">
                     <li><a class="dropdown-item" href="#noticia-1">Noticia 1</a></li>
                     <li><a class="dropdown-item" href="#noticia-2">Noticia 2</a></li>
-                    <!-- <li>
-                      <hr class="dropdown-divider">
-                    </li> -->
                     <li><a class="dropdown-item" href="#noticia-3">Noticia 3</a></li>
                   </ul>
                 </li>
@@ -50,107 +47,97 @@
     <header class="flex">
       <h1>TOKIO</h1>
     </header>
-
- <section>
-  <div class="column-3" id="column1">
-      <div class="">
-          <nav>
-              <ul>
-                  <li><a href="#galeria">Galería</a></li>
-                  <li><a href="#lugares">Lugares de Interés</a></li>
-                  <li><a href="#mapa">Mapa</a></li>
-                  <li><a href="#noticias">Últimas Noticias</a></li>
-              </ul>
-            </nav>
+    <section id="seccion1">
+      <div class="column-3" id="column1">
+        <nav>
+          <ul>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#lugares">Lugares de Interés</a></li>
+            <li><a href="#mapa">Mapa</a></li>
+            <li><a href="#noticias">Últimas Noticias</a></li>
+          </ul>
+        </nav>
       </div>
-  </div>
-  <div class="column-3" id="column2">
-      <div class="">
-          <section id="galeria">
-              <h2>Galería de Imágenes</h2>
-              <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active"><img src="./img/tokio-street.jpg" class="d-block w-100" alt="..."></div>
-                  <div class="carousel-item"><img src="./img/japon_tokio_montefuji_.jpg" class="d-block w-100" alt="..."></div>
-                  <div class="carousel-item"><img src="./img/tokio-place.jpg" class="d-block w-100" alt="..."></div>
-                  <div class="carousel-item"><img src="./img/tokio-place2.png" class="d-block w-100" alt="..."></div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-            </section>
-            <section id="lugares">
-              <h2>Lugares de Interés</h2>
-              <article>
-                <h3>Palacio Imperial</h3>
-                <p>Residencia del Emperador de Japón y construido sobre el antiguo Castillo de Edo, de este palacio no se puede visitar el interior aunque sus cuidados y preciosos jardines te enamoraran a primera vista, sobre todo en primavera con la floración del cerezo y en otoño con los colores rojizos y ocres de sus hojas. Aunque pasear por todo el recinto es una auténtica maravilla, entre sus puntos más fotogénicos se encuentra el de los puentes Nijubashi, un lugar que no puedes perderte.</p>
-              </article>
-              <article>
-                  <h3>Palacio Imperial</h3>
-                  <p>.</p>
-              </article>
-              <article>
-                  <h3>Palacio Imperial</h3>
-                  <p>.</p>
-              </article>
-              <article>
-                  <h3>Palacio Imperial</h3>
-                  <p>.</p>
-              </article>
-            </section>
-            <section id="mapa">
-              <h2>Mapa de la Población</h2>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d207347.5878691897!2d139.6088991101105!3d35.70638985079195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x605d1b87f02e57e7%3A0x2e01618b22571b89!2zVMOycXVpbywgSmFww7M!5e0!3m2!1sca!2ses!4v1706704634378!5m2!1sca!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </section>
+      <div class="column-3" id="column2">
+        <section id="galeria">
+          <h2>Galería de Imágenes</h2>
+          <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active"><img src="./img/tokio-street.jpg" class="d-block w-100" alt="Calle en tokio"></div>
+              <div class="carousel-item"><img src="./img/japon_tokio_montefuji_.jpg" class="d-block w-100" alt="Vista de tokio, monte fuji"></div>
+              <div class="carousel-item"><img src="./img/tokio-place.jpg" class="d-block w-100" alt="lugar de tokio 1"></div>
+              <div class="carousel-item"><img src="./img/tokio-place2.png" class="d-block w-100" alt="lugar de tokio 2"></div>
+              <div class="carousel-item"><img src="./img/tokio-place3.jpg" class="d-block w-100" alt="lugar de tokio 3"></div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+        <section id="lugares">
+          <h2>Lugares de Interés</h2>
+          <article>
+            <h3>Palacio Imperial</h3>
+            <img src="./img/palacio-imperial-tokio.jpg" alt="Torre Tokio">
+            <p>Residencia del Emperador de Japón y construido sobre el antiguo Castillo de Edo, de este palacio no se puede visitar el interior aunque sus cuidados y preciosos jardines te enamoraran a primera vista, sobre todo en primavera con la floración del cerezo y en otoño con los colores rojizos y ocres de sus hojas. Aunque pasear por todo el recinto es una auténtica maravilla, entre sus puntos más fotogénicos se encuentra el de los puentes Nijubashi, un lugar que no puedes perderte.</p>
+          </article>
+          <article>
+              <h3>Torre de Tokio</h3>
+              <img src="./img/torre-tokio.jpg" alt="">
+              <p>La Torre de Tokio, con 333 metros de altura e inspirada en la arquitectura de la Torre Eiffel, es el mirador más famoso que ver en Tokio.</p>
+              <p>Desde el espacio FootTown, un edificio de cuatro plantas situado justo debajo de la torre, donde puedes comer, comprar souvenirs y visitar varios museos, subirás a un ascensor que te llevará en pocos segundos al mirador principal, compuesto de dos pisos y ubicado a 150 metros de altura.</p>
+          </article>
+          <article>
+              <h3>Barrio de Shibuya</h3>
+              <img src="./img/shibuja.jpg" alt="">
+              <p>Shibuya es uno de los barrios más famosos de la ciudad y otro de los lugares que ver en Tokio imprescindibles.</p>
+              <p>Aunque muchos viajeros únicamente pasan por aquí una vez, después de nuestra experiencia, sin duda creemos que merece la pena recorrerlo tanto de día, con sus tiendas y restaurantes de todo tipo, como de noche, momento en que la presencia de las luces de neón, pantallas 3D, discotecas y atracciones sorprendentes, harán que pierdas la noción del tiempo. Además, y aunque no vengas precisamente de compras a Tokio, no dejes de entrar en el centro comercial Shibuya 109, todo un espectáculo para los sentidos o en algún centro comercial de la zona. Te aseguramos que es como entrar en otro mundo.</p>
+          </article>
+          <article>
+              <h3>Parque Ueno</h3>
+              <img src="./img/ueno.jpg" alt="">
+              <p>El parque Ueno, el más popular de Tokio, en el que podrás pasear entre estanques, museos y templos, es uno de los lugares que ver en Tokio más bonitos.</p>
+              <p>Aunque todo el parque merece ser visto, uno de nuestros lugares favoritos del parque es el estanque Shinobazi, que se divide en tres partes: la de los lotos, barcos y cormoranes, y que tiene como gran reclamo el templo Benten-do, situado en el centro, en una pequeña isla. Otros lugares interesantes del parque Ueno son el Santuario Toshogu, la pagoda de cinco pisos, el Templo Kiyomizu Kannon-do y el Jomyoin, la estatua de Saigo Takamori y el Gran Buda de Ueno.</p>
+          </article>
+        </section>
+        <section id="mapa">
+          <h2>Mapa de la Población</h2>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d207347.5878691897!2d139.6088991101105!3d35.70638985079195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x605d1b87f02e57e7%3A0x2e01618b22571b89!2zVMOycXVpbywgSmFww7M!5e0!3m2!1sca!2ses!4v1706704634378!5m2!1sca!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
       </div>
-  </div>
-  <div class="column-3" id="column3">
-      <div>
-          <div id="noticias">
+      <div class="column-3" id="column3">
+        <div>
+            <div id="noticias">
               <h2>Últimas Noticias</h2>
-              <article class="news noticia-1">
-                  <h3>Título de la Noticia 1</h3>
-                  <p>.</p>
+              <article class="noticia-1">
+                  <h3>Pánico en el aeropuerto de Tokio: cinco muertos al chocar un avión con 379 pasajeros contra una aeronave de la guardia costera</h3>
+                  <img src="./img/noticia1-accid-avion.png" alt="Accidente avión">
+                  <p>Un Airbus-350 de la compañía de Japan Airlines se ha incendiado en el aeropuerto internacional de Tokio-Haneda este martes, tras chocar con otro avión de la guardia costera japonesa encargado de llevar suministros a los desalojados por el terremoto que azotó el país en Año Nuevo.</p>
+                  <p>Las 379 personas que viajaban a bordo del avión comercial (367 pasajeros y 12 tripulantes) pudieron ser evacuadas a tiempo por una rampa inflable en la parte delantera y quedaron a salvo, aunque 17 han resultado heridas de distinta consideración, de los que cuatro han tenido que ser trasladas al hospital. En el otro avión cinco de los seis ocupantes fallecieron tras el choque. Solo el capitán, que se encuentra gravemente herido, logró sobrevivir a la tragedia.</p>
               </article>
-              <article class="news noticia-2">
-                  <h3>Título de la Noticia 2</h3>
-                  <p>..</p>
-                  <p>.</p>
-                  <p>.</p>
-                  <p>.</p>
-                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores et laborum distinctio fugiat laudantium aut ad iure numquam, consequatur maiores magni nemo recusandae? Consequuntur nobis, soluta illum libero dignissimos ad.</p>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta tenetur a soluta, voluptate possimus incidunt totam consequuntur et corporis illum, temporibus quos omnis cumque minima nesciunt ut nobis eos porro?</p>
-                  <p>.</p>
-                  <p>.</p>
-                  <p>.</p>
-                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem impedit nihil at quam iure, animi dolores eligendi cum eos. Velit quas laudantium a qui inventore ullam nesciunt aspernatur illum molestias.</p>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo voluptas nisi accusantium recusandae dignissimos nesciunt. Ad, autem esse, harum consequatur beatae, similique cupiditate velit quisquam quia delectus corporis non rerum?</p>
-                  <p>.</p>
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo quos quia vero? Consectetur maxime sint beatae incidunt quae vitae cumque iure quam, provident reprehenderit laboriosam itaque officia at maiores ipsum?</p>
-                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores et laborum distinctio fugiat laudantium aut ad iure numquam, consequatur maiores magni nemo recusandae? Consequuntur nobis, soluta illum libero dignissimos ad.</p>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta tenetur a soluta, voluptate possimus incidunt totam consequuntur et corporis illum, temporibus quos omnis cumque minima nesciunt ut nobis eos porro?</p>
-                  <p>.</p>
-                  <h1>HOLAAAAA</h1>
-                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores et laborum distinctio fugiat laudantium aut ad iure numquam, consequatur maiores magni nemo recusandae? Consequuntur nobis, soluta illum libero dignissimos ad.</p>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta tenetur a soluta, voluptate possimus incidunt totam consequuntur et corporis illum, temporibus quos omnis cumque minima nesciunt ut nobis eos porro?</p>
-                  <p>.</p>
+              <article class="noticia-2">
+                <h3>Japón eleva a 48 los muertos por el terremoto en su costa occidental y teme que haya más víctimas bajo los escombros</h3>
+                <img src="./img/noticia2-terremoto.png" alt="">
+                <p>El terremoto de magnitud 7,6 que golpeó este lunes la costa occidental del centro de Japón ha dejado ya al menos 48 muertos, según informó este martes la cadena de radiotelevisión estatal NHK, que dice que puede haber aún más gente atrapada bajo los escombros de construcciones que se derrumbaron.</p>
+                <p>La ciudad de Wajima, a unos 500 kilómetros de Tokio y situada muy cerca del epicentro del terremoto, está resultando la más castigada por el seísmo, que provocó el derrumbe de unos 25 edificios, muchos de ellos casas particulares, en esta localidad de unos 27.000 habitantes.</p>
+                <p>El peor terremoto de los últimos años en Japón se produjo a las 16 horas (hora local) de este lunes y contó con un epicentro en torno a los diez kilómetros de profundidad, que fue el más intenso de una treintena de seísmos y réplicas que se siguieron produciendo durante el primer día del año y que provocaron la evacuación de 100.000 personas.</p>
               </article>
-              <article class="news noticia-3">
-                <h3>Título de la Noticia 3</h3>
-                <p>.</p>
+              <article class="noticia-3">
+                <h3>La Nakagin Capsule Tower de Tokio, una joya de la arquitectura, será demolida</h3>
+                <img src="./img/noticia3-demolicion-capsule-tower.jpg" alt="">
+                <p>Una de las obras de arquitectura contemporánea más distintivas de Japón, la Nakagin Capsule Tower de Tokio, será demolida este mes, según los nuevos propietarios del edificio.</p>
+                <p>Una de las obras más singulares de la arquitectura contemporánea de Japón, la Nagakin Capsule Tower de Tokio, será demolida este mes, según los nuevos propietarios del edificio.</p>
+                <p>La decisión pone fin a años de incertidumbre en torno a la llamativa estructura, que en su día ofrecía una visión futurista de la vida urbana, pero que en los últimos tiempos se había deteriorado.</p>
+                <p></p>
               </article>
             </div>
+        </div>
       </div>
-  </div>
-</section>
-
-
-
+  </section>
 </body>
 </html>

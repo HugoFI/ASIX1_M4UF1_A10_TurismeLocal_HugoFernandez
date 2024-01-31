@@ -40,32 +40,80 @@ header h1{
     padding: 15px;
 }
 
-.card1{
-    width: 20%;
+#column1{
+    width: 15%;
 }
-.card2{
+#column2{
     width: 50%;
 }
-.card3{
-    width: 30%;
+#column3{
+    width: 35%;
 }
+
 h2{
     text-align: center;
     padding-bottom: 1%;
 }
-h3{
+article h3{
     text-align: center;
+    font-size: 22px;
+    margin-top: 50px;
 }
 article p{
     text-align: center;
+    padding: 5px;
 }
 iframe{
     width: 100%;
 }
+p{
+    font-size: 15px;
+}
+#noticias img{
+    width: 100%;
+}
 
+
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: lightpink; 
+    border: 5px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+  
+
+  
+nav a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black; 
+}
+
+nav a:hover {
+    background-color: #f5e0e0;
+}
+
+#lugares{
+    padding-top: 50px;
+}
+#lugares img{
+    width: 100%;
+}
 
 @media only screen and (max-width: 700px) {
-    .column-3{
-       width: 100%;
-    }   
+    #column1{
+        width: 100%;
+    }
+    #column2{
+        width: 100%;
+    }
+    #column3{
+        width: 100%;
+    }
    }
