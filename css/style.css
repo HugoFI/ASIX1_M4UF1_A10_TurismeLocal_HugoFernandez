@@ -1,0 +1,71 @@
+*{
+  font-family: "Roboto Mono", monospace;
+  box-sizing: border-box;
+  margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    height: 100vh;
+    background-image: url("./../img/Japan_Tokio_Skyline_und_Mt._Fuji.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin-bottom: 3%;
+}
+body{
+    overflow-x: hidden;
+}
+header h1{
+    background-color: lightpink;
+    border: solid 10px black;
+    border-radius: 20px;
+    padding: 25px;
+    font-size: 60px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.todo-cont{
+    width: 33.33%;
+    float: left;
+    padding: 3%;
+    display: flex;
+}
+.column-3{
+    float: left;
+    padding: 15px;
+}
+
+.card1{
+    width: 20%;
+}
+.card2{
+    width: 50%;
+}
+.card3{
+    width: 30%;
+}
+h2{
+    text-align: center;
+    padding-bottom: 1%;
+}
+h3{
+    text-align: center;
+}
+article p{
+    text-align: center;
+}
+iframe{
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .column-3{
+       width: 100%;
+    }   
+   }

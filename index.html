@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>TOKIO</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">TOKIO</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#galeria">Galería</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Noticias
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="#noticia-1">Noticia 1</a></li>
+                    <li><a class="dropdown-item" href="#noticia-2">Noticia 2</a></li>
+                    <!-- <li>
+                      <hr class="dropdown-divider">
+                    </li> -->
+                    <li><a class="dropdown-item" href="#noticia-3">Noticia 3</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </nav>
+    <header class="flex">
+      <h1>TOKIO</h1>
+    </header>
+
+ <section>
+  <div class="column-3" id="column1">
+      <div class="">
+          <nav>
+              <ul>
+                  <li><a href="#galeria">Galería</a></li>
+                  <li><a href="#lugares">Lugares de Interés</a></li>
+                  <li><a href="#mapa">Mapa</a></li>
+                  <li><a href="#noticias">Últimas Noticias</a></li>
+              </ul>
+            </nav>
+      </div>
+  </div>
+  <div class="column-3" id="column2">
+      <div class="">
+          <section id="galeria">
+              <h2>Galería de Imágenes</h2>
+              <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active"><img src="./img/tokio-street.jpg" class="d-block w-100" alt="..."></div>
+                  <div class="carousel-item"><img src="./img/japon_tokio_montefuji_.jpg" class="d-block w-100" alt="..."></div>
+                  <div class="carousel-item"><img src="./img/tokio-place.jpg" class="d-block w-100" alt="..."></div>
+                  <div class="carousel-item"><img src="./img/tokio-place2.png" class="d-block w-100" alt="..."></div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </section>
+            <section id="lugares">
+              <h2>Lugares de Interés</h2>
+              <article>
+                <h3>Palacio Imperial</h3>
+                <p>Residencia del Emperador de Japón y construido sobre el antiguo Castillo de Edo, de este palacio no se puede visitar el interior aunque sus cuidados y preciosos jardines te enamoraran a primera vista, sobre todo en primavera con la floración del cerezo y en otoño con los colores rojizos y ocres de sus hojas. Aunque pasear por todo el recinto es una auténtica maravilla, entre sus puntos más fotogénicos se encuentra el de los puentes Nijubashi, un lugar que no puedes perderte.</p>
+              </article>
+              <article>
+                  <h3>Palacio Imperial</h3>
+                  <p>.</p>
+              </article>
+              <article>
+                  <h3>Palacio Imperial</h3>
+                  <p>.</p>
+              </article>
+              <article>
+                  <h3>Palacio Imperial</h3>
+                  <p>.</p>
+              </article>
+            </section>
+            <section id="mapa">
+              <h2>Mapa de la Población</h2>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d207347.5878691897!2d139.6088991101105!3d35.70638985079195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x605d1b87f02e57e7%3A0x2e01618b22571b89!2zVMOycXVpbywgSmFww7M!5e0!3m2!1sca!2ses!4v1706704634378!5m2!1sca!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+      </div>
+  </div>
+  <div class="column-3" id="column3">
+      <div>
+          <div id="noticias">
+              <h2>Últimas Noticias</h2>
+              <article class="news noticia-1">
+                  <h3>Título de la Noticia 1</h3>
+                  <p>.</p>
+              </article>
+              <article class="news noticia-2">
+                  <h3>Título de la Noticia 2</h3>
+                  <p>..</p>
+                  <p>.</p>
+                  <p>.</p>
+                  <p>.</p>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores et laborum distinctio fugiat laudantium aut ad iure numquam, consequatur maiores magni nemo recusandae? Consequuntur nobis, soluta illum libero dignissimos ad.</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta tenetur a soluta, voluptate possimus incidunt totam consequuntur et corporis illum, temporibus quos omnis cumque minima nesciunt ut nobis eos porro?</p>
+                  <p>.</p>
+                  <p>.</p>
+                  <p>.</p>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem impedit nihil at quam iure, animi dolores eligendi cum eos. Velit quas laudantium a qui inventore ullam nesciunt aspernatur illum molestias.</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo voluptas nisi accusantium recusandae dignissimos nesciunt. Ad, autem esse, harum consequatur beatae, similique cupiditate velit quisquam quia delectus corporis non rerum?</p>
+                  <p>.</p>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo quos quia vero? Consectetur maxime sint beatae incidunt quae vitae cumque iure quam, provident reprehenderit laboriosam itaque officia at maiores ipsum?</p>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores et laborum distinctio fugiat laudantium aut ad iure numquam, consequatur maiores magni nemo recusandae? Consequuntur nobis, soluta illum libero dignissimos ad.</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta tenetur a soluta, voluptate possimus incidunt totam consequuntur et corporis illum, temporibus quos omnis cumque minima nesciunt ut nobis eos porro?</p>
+                  <p>.</p>
+                  <h1>HOLAAAAA</h1>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores et laborum distinctio fugiat laudantium aut ad iure numquam, consequatur maiores magni nemo recusandae? Consequuntur nobis, soluta illum libero dignissimos ad.</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta tenetur a soluta, voluptate possimus incidunt totam consequuntur et corporis illum, temporibus quos omnis cumque minima nesciunt ut nobis eos porro?</p>
+                  <p>.</p>
+              </article>
+              <article class="news noticia-3">
+                <h3>Título de la Noticia 3</h3>
+                <p>.</p>
+              </article>
+            </div>
+      </div>
+  </div>
+</section>
+
+
+
+</body>
+</html>
